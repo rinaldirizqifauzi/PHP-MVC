@@ -18,6 +18,27 @@
     </div>
   </div>
 </div>
-
-    
+  <div class="container">
+    <div class="row justify-content-center mt-4">
+      <h4><center> Laravel 8 </center></h4>
+      <div class="col-lg-6">
+        <div class="card w-75">
+          <div class="card-body">
+            <h5 class="card-title"><?= $data['pengertian_laravel'] ?></h5>
+            <p class="card-text"><?= $data['excerpt'] ?></p>
+            <a href="<?= BASEURL; ?>/laravel" class="btn btn-primary">Lihat Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card w-75">
+          <div class="card-body">
+            <h5 class="card-title"><?= $data['keunggulan_laravel'] ?></h5>
+            <p class="card-text"><?= $data['excerpt_keunggulan'] ?></p>
+            <a href="<?= BASEURL; ?>/keunggulan" class="btn btn-primary">Lihat Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
 </div>
